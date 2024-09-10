@@ -1,5 +1,5 @@
-import "./App.css";
 import { Routes, Route, useLocation } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
 
 import Navbar from "./Navbar";
 import Home from "./Home";
@@ -12,11 +12,13 @@ function App() {
   return (
     <>
       <Navbar />
-      <Routes location={location} key={location.pathname}>
-        <Route index element={<Home />} />
-        <Route path="/experience" element={<Experience />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <AnimatePresence mode="wait">
+        <Routes location={location} key={location.pathname}>
+          <Route index element={<Home />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </AnimatePresence>
     </>
   );
 }
