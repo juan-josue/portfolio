@@ -8,9 +8,9 @@ function Navbar() {
   const activeLinkStyle = "bg-indigo-500 rounded";
 
   return (
-    <div className="fixed top-0 left-0 w-full flex items-center justify-between px-16 py-8">
-      <Link className={linkStyle} to="/">Juan Gutierrez Moreno</Link>
-      <div className="flex gap-8 items-center">
+    <div className="fixed top-0 left-0 w-full flex items-center justify-end lg:justify-between px-4 lg:px-16 py-8 bg-zinc-900">
+      <Link className={`${linkStyle} hidden lg:block`} to="/">Juan Gutierrez Moreno</Link>
+      <div className="flex gap-2 lg:gap-8 items-center">
         <Link
           to="/"
           className={`${linkStyle}  ${
@@ -22,7 +22,7 @@ function Navbar() {
         <Link
           to="/projects"
           className={`${linkStyle} ${
-            location.pathname === "/experience" ? activeLinkStyle : ""
+            location.pathname === "/projects" ? activeLinkStyle : ""
           }`}
         >
           Projects
