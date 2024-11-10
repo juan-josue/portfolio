@@ -1,13 +1,20 @@
 import React from "react";
 
-import transition from "./transition";
+function Experience({ title, start, end, desc, tech }) {
+  const wordPeriod = <p className="text-gray-400 min-w-40">{start + " - " + end}</p>;
 
-function Experience() {
   return (
-    <div className="min-h-screen flex items-center justify-center">
-      <h1 className="text-4xl font-bold">Work Experience</h1>
+    <div className="flex flex-col md:flex-row gap-4">
+      <div className="hidden md:block flex-shrink-0">{ wordPeriod }</div>
+
+      <div className="flex flex-col gap-2">
+        <p>{title}</p>
+        <div className="block md:hidden flex-shrink-0">{ wordPeriod }</div>
+        <p className="text-gray-400">{desc}</p>
+        <p className="text-gray-400">{tech}</p>
+      </div>
     </div>
   );
 }
 
-export default transition(Experience);
+export default Experience;
