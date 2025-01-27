@@ -74,7 +74,7 @@ function Home() {
               title="Memory Lane 🐘"
               desc="AI assisted dementia reminiscence therapy"
               tech="React • Flask • TTS"
-              url="https://github.com/juan-josue/memory-lane"
+              url="https://devpost.com/software/memory-lane-pa6cqu"
               img="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/232/550/datas/gallery.jpg"
             />
 
@@ -93,7 +93,7 @@ function Home() {
               desc="AI bird image classification and sighting tracker"
               tech="React • Node • JWT"
               url="https://github.com/juan-josue/Tracktion"
-              img="https://devpost.com/software/memory-lane-pa6cqu"
+              img="https://media.licdn.com/dms/image/v2/D562DAQFOJ83vA41_Wg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1689227005440?e=1731816000&v=beta&t=3RTmcp_ug_M0EoXqFD1kmQv3dBenest0C6AJeqL6J74"
             />
           </div>
         </section>
