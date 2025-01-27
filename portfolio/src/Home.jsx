@@ -70,6 +70,15 @@ function Home() {
             <h2 className="text-xl">Side Projects</h2>
 
             <Project
+              year="2025"
+              title="Memory Lane 🐘"
+              desc="AI assisted dementia reminiscence therapy"
+              tech="React • Flask • TTS"
+              url="https://github.com/juan-josue/memory-lane"
+              img="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/232/550/datas/gallery.jpg"
+            />
+
+            <Project
               year="2024"
               title="Ornipedia 🕊️"
               desc="AI bird image classification and sighting tracker"
