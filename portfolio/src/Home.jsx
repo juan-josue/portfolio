@@ -72,7 +72,7 @@ function Home() {
             <Project
               year="2025"
               title="Memory Lane 🐘"
-              desc="AI assisted dementia reminiscence therapy"
+              desc="AI assisted reminiscence therapy for dementia"
               tech="React • Flask • TTS"
               url="https://devpost.com/software/memory-lane-pa6cqu"
               img="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/232/550/datas/gallery.jpg"
